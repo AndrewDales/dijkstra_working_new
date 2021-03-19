@@ -18,6 +18,7 @@ priority_queue[start] = 0
 # Visited starts as an empty dictionary
 visited = {}
 
+# start a dictionary which will save the routes to each point
 routes = {start: [start]}
 
 while priority_queue:
